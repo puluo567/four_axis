@@ -1,0 +1,29 @@
+# 忽略 VSCode 配置
+.vscode/
+
+# 忽略 Keil 相关临时和配置文件
+*.uvoptx
+*.uvgui.*
+*.bak
+*.dep
+*.htm
+*.iex
+*.log
+*.lst
+*.map
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.sct
+
+# 忽略编译输出目录
+Output/
+build/
+MDK-ARM/Project/*.o
+MDK-ARM/Project/*.d
+MDK-ARM/Project/*.map
+MDK-ARM/Project/*.hex
+MDK-ARM/Project/*.htm
+MDK-ARM/Project/*.log
